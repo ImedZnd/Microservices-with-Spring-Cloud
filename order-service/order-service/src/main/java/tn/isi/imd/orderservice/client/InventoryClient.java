@@ -9,5 +9,3 @@ public interface InventoryClient {
     @GetMapping("/api/inventory/{skuCode}")
     Boolean checkStock(@PathVariable String skuCode);
 }
-
-
